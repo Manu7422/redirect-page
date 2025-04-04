@@ -1,35 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.4">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-  </style>
-</head>
-<body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Redirection...&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script type="text/javascript"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>window.onload = function() {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>// Tente une redirection automatique après 1 seconde</p>
-<p class="p1"><span class="Apple-converted-space">        </span>setTimeout(function() {</p>
-<p class="p1"><span class="Apple-converted-space">          </span>window.location.replace("myapp://callback");</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}, 1000);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>};</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;body&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Si vous n'êtes pas redirigé automatiquement, veuillez appuyer sur le bouton ci-dessous :&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button onclick="window.location.replace('myapp://');"&gt;Ouvrir l'application&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Ou cliquez sur ce lien : &lt;a href="myapp://"&gt;Ouvrir l'application&lt;/a&gt;.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Redirection...</title>
+    <meta http-equiv="refresh" content="0; url=myapp://callback">
+  </head>
+  <body>
+    <p>Si vous n'êtes pas redirigé automatiquement, <a href="myapp://callback">cliquez ici</a>.</p>
+  </body>
 </html>
